@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tapwave — J'équipe Saint-Gaudens en puces NFC.</title>
+<meta name="description" content="Je fournis et je pose les supports NFC — cartes, autocollants, chevalets, bracelets — chez les commerçants de Saint-Gaudens. Le client tape, la page s'ouvre. Sans application.">
+<meta name="theme-color" content="#FBFAF7">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tapwave — Supports NFC posés à Saint-Gaudens">
+<meta property="og:description" content="Cartes, autocollants, chevalets, bracelets. Je viens chez vous, je pose, je teste avec vous.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23FBFAF7'/%3E%3Cg fill='none' stroke='%231B4DD1' stroke-width='2.2' stroke-linecap='round'%3E%3Cpath d='M13 20a5 5 0 0 1 0-8'/%3E%3Cpath d='M9.6 23.4a9 9 0 0 1 0-13.8'/%3E%3C/g%3E%3Ccircle cx='22' cy='16' r='2.2' fill='%231B4DD1'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<!-- ============ EN-TÊTE ============ -->
+<header class="head" data-nav>
+  <div class="container head__inner">
+    <a class="logo" href="#top">
+      <svg class="logo__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+          <path d="M13 20a5 5 0 0 1 0-8"/>
+          <path d="M9.6 23.4a9 9 0 0 1 0-13.8"/>
+        </g>
+        <circle cx="22" cy="16" r="2.2" fill="currentColor"/>
+      </svg>
+      <span>Tapwave</span>
+    </a>
+
+    <nav class="head__nav" id="menu" aria-label="Navigation principale">
+      <a href="#demo">La démo</a>
+      <a href="#usages">Trois usages</a>
+      <a href="#supports">Les supports</a>
+      <a href="#faq">Questions</a>
+    </nav>
+
+    <div class="head__end">
+      <a class="head__mail" href="mailto:fran6pereira@gmail.com">fran6pereira@gmail.com</a>
+      <button class="burger" data-burger aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ============ ACCUEIL ============ -->
+<section class="hero">
+  <div class="container hero__grid">
+
+    <div class="hero__text">
+      <p class="kicker" data-reveal>Saint-Gaudens · Haute-Garonne</p>
+
+      <h1 class="hero__title" data-reveal style="--d:.04s">
+        J'équipe<br>
+        Saint-Gaudens<br>
+        <em>en puces NFC.</em>
+      </h1>
+
+      <p class="hero__lead" data-reveal style="--d:.1s">
+        Je fournis les supports qui portent une puce — cartes, autocollants,
+        chevalets, bracelets — et je viens les poser chez vous. Le client approche
+        son téléphone, et la page que vous avez choisie s'ouvre. Pas d'application
+        à installer, pas de compte à créer.
+      </p>
+
+      <div class="hero__actions" data-reveal style="--d:.16s">
+        <a class="btn" href="mailto:fran6pereira@gmail.com">Écrire un courriel</a>
+        <a class="link" href="#demo">Voir ce que ça donne <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <p class="hero__note" data-reveal style="--d:.2s">
+        Je me déplace à Saint-Gaudens et dans les communes autour.
+        Le devis se fait sur place, une fois qu'on a vu où poser les supports.
+      </p>
+    </div>
+
+    <div class="hero__visual" data-reveal style="--d:.08s">
+      <div class="still">
+        <div class="still__arcs" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="still__card">
+          <span class="still__chip" aria-hidden="true"><i></i><i></i></span>
+          <p class="still__name">Francisco De Carvalho</p>
+          <p class="still__role">Saint-Gaudens · 06 12 34 56 78</p>
+          <p class="still__hint"><span class="still__dot" aria-hidden="true"></span> approchez du téléphone</p>
+        </div>
+        <p class="still__cap">C'est cette carte qui vous a amené ici</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <ul class="facts" data-reveal>
+      <li><span>Je pose</span>moi-même, chez vous</li>
+      <li><span>Application</span>aucune</li>
+      <li><span>Alimentation</span>aucune, c'est le téléphone</li>
+      <li><span>Devis</span>sur place, sans engagement</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ DÉMO ============ -->
+<section class="section section--tint" id="demo">
+  <div class="container demo">
+
+    <div class="demo__text">
+      <p class="kicker" data-reveal><span>01</span> La démo</p>
+      <h2 class="sec-title" data-reveal style="--d:.04s">Ce que votre client<br>voit, une fois que<br>le support est posé.</h2>
+      <p class="sec-lead" data-reveal style="--d:.08s">
+        Rien à télécharger, rien à saisir. Vous touchez, la page s'ouvre.
+        Trois exemples&nbsp;— on les regarde ensemble quand je passe.
+      </p>
+
+      <div class="switch" role="tablist" aria-label="Exemple de page ouverte" data-reveal style="--d:.12s">
+        <button class="switch__btn is-on" role="tab" aria-selected="true"  data-scene-btn="review">Laisser un avis</button>
+        <button class="switch__btn"           role="tab" aria-selected="false" data-scene-btn="card">Enregistrer le contact</button>
+        <button class="switch__btn"           role="tab" aria-selected="false" data-scene-btn="menu">Ouvrir le menu</button>
+      </div>
+
+      <ul class="demo__list" data-reveal>
+        <li>Ça s'ouvre dans le navigateur déjà ouvert, sans store.</li>
+        <li>Android ouvre la page seul&nbsp;; sur iPhone, une notification.</li>
+        <li>Je teste chaque page sur un vrai téléphone avant de vous la montrer.</li>
+      </ul>
+    </div>
+
+    <div class="demo__stage" data-reveal style="--d:.06s">
+      <div class="phone">
+        <div class="phone__frame">
+          <span class="phone__island" aria-hidden="true"></span>
+          <div class="phone__screen">
+
+            <!-- Avis -->
+            <div class="scene is-on" data-scene="review">
+              <div class="scene__bar"><span>20:41</span><span class="scene__title">Tapwave</span></div>
+              <div class="scene__bg scene__bg--warm">
+                <div class="scene__place">
+                  <span class="scene__glyph" aria-hidden="true">
+                    <svg viewBox="0 0 28 28"><path d="M5.6 4.6v7.6a2 2 0 0 0 4 0V4.6M7.6 12.2v11.2M20.4 4.6c-1.6 0-2.6 1.9-2.6 4.4s1 3.6 2.6 3.6v11.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </span>
+                  <span>
+                    <b>Chez Camille</b>
+                    <em>Table 7 · à l'instant</em>
+                  </span>
+                </div>
+              </div>
+              <div class="sheet">
+                <p class="sheet__kicker">Le repas était bon&nbsp;?</p>
+                <h4>Notez Chez Camille</h4>
+                <div class="stars" role="img" aria-label="5 étoiles sur 5">
+                  <svg viewBox="0 0 24 24"><path d="m12 3.6 2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 10l6.1-.9z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="m12 3.6 2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 10l6.1-.9z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="m12 3.6 2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 10l6.1-.9z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="m12 3.6 2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 10l6.1-.9z"/></svg>
+                  <svg viewBox="0 0 24 24"><path d="m12 3.6 2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 10l6.1-.9z"/></svg>
+                </div>
+                <span class="sheet__cta">Rédiger un avis</span>
+                <p class="sheet__foot">20 secondes · proposé par Tapwave</p>
+              </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="scene" data-scene="card">
+              <div class="scene__bar"><span>20:41</span><span class="scene__title">Contact enregistré</span></div>
+              <div class="scene__bg scene__bg--cool">
+                <div class="vcard">
+                  <span class="vcard__mono">CC</span>
+                  <b>Camille Costa</b>
+                  <em>Commerçant à Saint-Gaudens</em>
+                  <ul>
+                    <li>+33 6 12 34 56 78</li>
+                    <li>camille@chezcamille.fr</li>
+                    <li>Saint-Gaudens</li>
+                  </ul>
+                  <p class="vcard__acts"><span>Enregistrer</span><span>Message</span></p>
+                </div>
+              </div>
+              <div class="sheet sheet--low">
+                <p class="sheet__kicker">Ajouté à votre téléphone</p>
+                <h4>Camille Costa</h4>
+                <p class="sheet__sub">Le contact, le numéro et l'adresse sont dans votre carnet. Vous n'avez rien saisi.</p>
+              </div>
+            </div>
+
+            <!-- Menu -->
+            <div class="scene" data-scene="menu">
+              <div class="scene__bar"><span>20:41</span><span class="scene__title">Chez Camille</span></div>
+              <div class="scene__bg scene__bg--warm">
+                <div class="menuhead">
+                  <b>Chez Camille</b>
+                  <span><i>FR</i><i>EN</i></span>
+                </div>
+                <ul class="menulist">
+                  <li><span>Bruschetta à la tomate</span><b>7,50</b></li>
+                  <li><span>Cacio e pepe</span><b>16,00</b></li>
+                  <li><span>Risotto aux champignons</span><b>19,50</b></li>
+                  <li><span>Bar de citron</span><b>28,00</b></li>
+                  <li><span>Tiramisù maison</span><b>8,00</b></li>
+                </ul>
+              </div>
+              <div class="sheet sheet--low">
+                <p class="sheet__kicker">Table 7 · sans QR code</p>
+                <h4>Le menu du jour</h4>
+                <p class="sheet__sub">Vous changez un prix&nbsp;: la table suivante affiche déjà la nouvelle version.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ USAGES ============ -->
+<section class="section" id="usages">
+  <div class="container">
+
+    <header class="sec-head">
+      <p class="kicker" data-reveal><span>02</span> Trois usages</p>
+      <h2 class="sec-title" data-reveal style="--d:.04s">Un support, une page.<br>Vous choisissez laquelle.</h2>
+      <p class="sec-lead" data-reveal style="--d:.08s">
+        Y en a beaucoup d'autres&nbsp;— fidélité, contrôle d'accès, check-in d'événement.
+        Mais trois cas reviennent tout le temps, en Haute-Garonne comme ailleurs.
+      </p>
+    </header>
+
+    <div class="uses">
+
+      <article class="use" data-reveal>
+        <span class="use__num">i</span>
+        <h3>Votre fiche Google</h3>
+        <p class="use__desc">
+          Un support posé en salle ou en caisse. Le client tape, votre fiche
+          s'ouvre en mode avis. Vingt secondes, pendant qu'il est encore content.
+        </p>
+        <ul class="use__list">
+          <li>La fiche exacte de votre établissement</li>
+          <li>Un lien de relance si la personne decline</li>
+          <li>Aucun compte à créer pour le client</li>
+        </ul>
+      </article>
+
+      <article class="use" data-reveal style="--d:.06s">
+        <span class="use__num">ii</span>
+        <h3>Vos coordonnées</h3>
+        <p class="use__desc">
+          Une carte qui enregistre le contact dans le carnet du client. Vous
+          changez de numéro ou d'adresse&nbsp;: la carte reste en circulation.
+        </p>
+        <ul class="use__list">
+          <li>Le contact enregistré en un geste</li>
+          <li>Le lien est réorientable après coup</li>
+          <li>Utile pour les visités et les clients réguliers</li>
+        </ul>
+      </article>
+
+      <article class="use" data-reveal style="--d:.12s">
+        <span class="use__num">iii</span>
+        <h3>Votre menu</h3>
+        <p class="use__desc">
+          Un support sur chaque table, sans QR code à photographier. Vous
+          modifiez un prix, la table suivante l'affiche à jour.
+        </p>
+        <ul class="use__list">
+          <li>Une page par établissement, mise à jour facilement</li>
+          <li>Allergènes et régimes signalés</li>
+          <li>Plusieurs langues si votre clientèle en a besoin</li>
+        </ul>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ SUPPORTS ============ -->
+<section class="section section--tint" id="supports">
+  <div class="container">
+
+    <header class="sec-head">
+      <p class="kicker" data-reveal><span>03</span> Les supports</p>
+      <h2 class="sec-title" data-reveal style="--d:.04s">Ce que je pose chez vous.</h2>
+      <p class="sec-lead" data-reveal style="--d:.08s">
+        Chaque support est personnalisé avec vos couleurs et vos coordonnées avant
+        d'être posé. Le prix dépend du format et de la quantité&nbsp;: je vous le
+        dis quand je sais ce qu'il vous faut.
+      </p>
+    </header>
+
+    <div class="gives">
+      <div class="gives__col" data-reveal>
+        <p class="gives__head">Courants</p>
+        <ul>
+          <li><strong>Carte de visite</strong> — à distribuer, en poche ou en main propre</li>
+          <li><strong>Autocollant</strong> — sur une vitrine, une porte, une caisse</li>
+          <li><strong>Chevalet de table</strong> — posé sur les tables, en salle</li>
+          <li><strong>Porte-clés</strong> — à l'accueil, pour un événement ou une fidélité</li>
+        </ul>
+      </div>
+
+      <div class="gives__col" data-reveal style="--d:.06s">
+        <p class="gives__head">Sur demande</p>
+        <ul>
+          <li><strong>Bracelet</strong> — pour un festival, une course, une soirée</li>
+          <li><strong>Affiche grand format</strong> — en vitrine, très visible depuis la rue</li>
+          <li><strong>Badge</strong> — pour du personnel qui se déplace chez vous</li>
+          <li><strong>Format particulier</strong> — dites-le moi, je regarde ce qui est faisable</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pose" data-reveal>
+      <p class="pose__head">Comment ça se passe, concrètement</p>
+      <ol class="pose__steps">
+        <li><strong>On se voit.</strong> Vous m'appelez ou vous m'écrivez, on cale un créneau.</li>
+        <li><strong>Je regarde.</strong> Je viens voir l'endroit, on choisit ensemble où poser quoi.</li>
+        <li><strong>Je pose, on teste.</strong> Le support est en place, et on vérifie ensemble que ça s'ouvre bien.</li>
+      </ol>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ QUESTIONS ============ -->
+<section class="section" id="faq">
+  <div class="container faq">
+
+    <div class="faq__intro">
+      <p class="kicker" data-reveal><span>04</span> Questions</p>
+      <h2 class="sec-title" data-reveal style="--d:.04s">Ce qu'on me demande<br>le plus souvent.</h2>
+      <p class="sec-lead" data-reveal style="--d:.08s">
+        Si la vôtre n'est pas là, mettez-la dans le courriel, je réponds.
+      </p>
+    </div>
+
+    <div class="acc" data-acc data-reveal style="--d:.06s">
+
+      <div class="acc__item">
+        <h3><button class="acc__btn" aria-expanded="false">
+          <span>Le client doit-il installer une application&nbsp;?</span>
+          <span class="acc__sign" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__panel"><div>
+          <p>Non. Il approche son téléphone, et la page s'ouvre dans le navigateur.
+          Rien à télécharger, aucune inscription. C'est justement ce qui change tout par
+          rapport à un QR code à photographier.</p>
+        </div></div>
+      </div>
+
+      <div class="acc__item">
+        <h3><button class="acc__btn" aria-expanded="false">
+          <span>Ça marche sur iPhone&nbsp;?</span>
+          <span class="acc__sign" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__panel"><div>
+          <p>Oui, avec une précision qui compte. Les puces sont écrites dans le format
+          standard que le téléphone reconnaît&nbsp;; sur iPhone, la page s'ouvre par une
+          notification quand on approche le haut du dos de l'appareil. Sur Android,
+          elle s'ouvre seule. Comme iOS ne lit pas tous les tags de la même façon, les
+          supports que je pose portent aussi un QR au dos&nbsp;: c'est un vrai secours,
+          pas une décoration.</p>
+        </div></div>
+      </div>
+
+      <div class="acc__item">
+        <h3><button class="acc__btn" aria-expanded="false">
+          <span>Est-ce que ça remplace un site&nbsp;?</span>
+          <span class="acc__sign" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__panel"><div>
+          <p>Ça ne remplace pas un site, mais ça y répond. Un site, on le visite
+          exprès. Un support NFC, on le rencontre au comptoir, à la table, à la vitrine.
+          Les deux se complètent&nbsp;: le site pour ceux qui vous cherchent, le support
+          pour ceux qui sont déjà devant vous.</p>
+        </div></div>
+      </div>
+
+      <div class="acc__item">
+        <h3><button class="acc__btn" aria-expanded="false">
+          <span>Et si j'ai déjà une fiche Google qui marche bien&nbsp;?</span>
+          <span class="acc__sign" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__panel"><div>
+          <p>Alors le support n'a pas vocation à la remplacer&nbsp;: il a vocation à
+          vous y envoyer. C'est souvent le premier projet que je fais&nbsp;: un
+          chevalet par table qui mène à la fiche, et le tour est fait.</p>
+        </div></div>
+      </div>
+
+      <div class="acc__item">
+        <h3><button class="acc__btn" aria-expanded="false">
+          <span>Combien ça coûte&nbsp;?</span>
+          <span class="acc__sign" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__panel"><div>
+          <p>Ça dépend du format, de la quantité et de ce qu'il faut préparer. Je ne
+          peux pas vous donner un chiffre honnête au téléphone&nbsp;: il serait faux.
+          Donc je passe, je regarde, et je vous dis le prix une fois que je sais ce
+          qu'il vous faut.</p>
+        </div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--tint" id="contact">
+  <div class="container write">
+
+    <p class="kicker" data-reveal><span>05</span> Contact</p>
+
+    <h2 class="sec-title" data-reveal style="--d:.04s">Écrivez-moi directement.</h2>
+
+    <p class="write__lead" data-reveal style="--d:.08s">
+      Dites-moi en deux lignes ce que vous faites et où vous êtes à Saint-Gaudens
+      ou autour. Je réponds moi-même, et on cale une visite si c'est utile.
+    </p>
+
+    <a class="write__mail" href="mailto:fran6pereira@gmail.com" data-reveal style="--d:.12s">
+      fran6pereira@gmail.com
+    </a>
+
+    <div class="write__rest" data-reveal style="--d:.18s">
+      <div class="write__item">
+        <p class="write__k">Téléphone</p>
+        <a class="write__link" href="tel:+33769011295">+33 7 69 01 12 95</a>
+      </div>
+      <div class="write__item">
+        <p class="write__k">Où j'interviens</p>
+        <p class="write__txt">Saint-Gaudens et les communes autour</p>
+      </div>
+      <div class="write__item">
+        <p class="write__k">Vous pouvez vérifier</p>
+        <p class="write__txt">
+          <a href="https://www.linkedin.com/in/francisco-de-carvalho-pereira-aa0458196" rel="me noopener" target="_blank">LinkedIn</a> ·
+          <a href="https://github.com/LeBoFran6" rel="me noopener" target="_blank">GitHub</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ============ PIED DE PAGE ============ -->
+<footer class="foot">
+  <div class="container">
+    <div class="foot__main">
+      <div>
+        <a class="logo" href="#top">
+          <svg class="logo__mark" viewBox="0 0 32 32" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+              <path d="M13 20a5 5 0 0 1 0-8"/>
+              <path d="M9.6 23.4a9 9 0 0 1 0-13.8"/>
+            </g>
+            <circle cx="22" cy="16" r="2.2" fill="currentColor"/>
+          </svg>
+          <span>Tapwave</span>
+        </a>
+        <p class="foot__by">
+          Tapwave, c'est Francisco De Carvalho Pereira&nbsp;: fourniture et pose de
+          supports NFC à Saint-Gaudens et dans les communes autour.
+        </p>
+      </div>
+
+      <nav class="foot__col" aria-label="Plan du site">
+        <h3>Sur cette page</h3>
+        <a href="#demo">La démo</a>
+        <a href="#usages">Trois usages</a>
+        <a href="#supports">Les supports</a>
+        <a href="#faq">Questions</a>
+      </nav>
+
+      <div class="foot__col">
+        <h3>Écrire</h3>
+        <a href="mailto:fran6pereira@gmail.com">fran6pereira@gmail.com</a>
+        <a href="tel:+33769011295">+33 7 69 01 12 95</a>
+        <a href="https://www.linkedin.com/in/francisco-de-carvalho-pereira-aa0458196" rel="me noopener" target="_blank">LinkedIn</a>
+        <a href="https://github.com/LeBoFran6" rel="me noopener" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <p class="foot__base">
+      © <span data-year>2026</span> Tapwave · Saint-Gaudens
+      <span class="foot__dot" aria-hidden="true">·</span>
+      Aucun traceur sur cette page
+    </p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
